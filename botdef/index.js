@@ -24,7 +24,7 @@ client.on("message", async message =>{
     if(comando == ""){
         // Number e o numero da quantidade de imagens em 'images'
         // Cada imagens deve ser renomeada para 1.png, 2.png.. etc
-        number = 21323;
+        number = ???;
         imagesNumber = Math.floor (Math.random() * (number - 1 +1)) +1;
         message.channel.send ({files: ["./images/" + imagesNumber + ".png"]})
         console.log(comando)
