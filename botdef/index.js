@@ -65,14 +65,6 @@ client.on("message", async message =>{
         + "😶😶 então a gente podia, quem sabe 💅🏼... fazer uma coisa junto tipo 👫, sei lá, trabalho em grupo 👨‍👨‍👧‍👧, "
         + "pode contar comigo se tu quiser. 👊👊👊");
     }
-    if (comando =="hi"){
-        const hi = await message.channel.send("Hi! 🙃 It's guy right, your name? 🤪🤪 Sorry to come out of nowhere, "
-        + "I know you must be finding it weird 😱😱. It's just that you were there so quiet 😇, always be quiet. "
-        +"Aren't you really friends with the staff here? 🧐 Because I don't talk to anyone much either, 😶😶"
-        + "so we could, who knows 💅🏼... do something together like 👫, I don't know, work as a group 👨 👨, you can count on me if you want. 👊👊👊 👊👊👊 👊👊👊 👊👊👊")
-    }
-
-
     
 });
 
