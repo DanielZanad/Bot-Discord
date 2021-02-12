@@ -32,7 +32,7 @@ client.on("message", async message =>{
         
     }
     if(comando == "ajuda" || comando == "help"){
-        message.channel.send(`(Aqui comandos que o bot eira fazer)`)
+        message.channel.send(`(Aqui comandos que o bot ira fazer)`)
 
     }
 
@@ -48,7 +48,7 @@ client.on("message", async message =>{
       
     }
 
-    // Manda uma mensagem aletaoria, com base no array respostas
+    // Manda uma mensagem aletaoria, com base no vetor respostas
     if(comando == "Mensagem Aleatoria"){
         number = 9;
         resultado = Math.floor(Math.random() * respostas.length) 
@@ -114,5 +114,5 @@ client.on('message', (message) => {
 
 
 
-
+// O token e definido no config.json 
 client.login(config.token);
