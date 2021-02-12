@@ -24,6 +24,7 @@ client.on("message", async message =>{
     if(comando == ""){
         // Number e o numero da quantidade de imagens em 'images'
         // Cada imagens deve ser renomeada para 1.png, 2.png.. etc
+        // Esse comando permite enviar gifs 
         number = ???;
         imagesNumber = Math.floor (Math.random() * (number - 1 +1)) +1;
         message.channel.send ({files: ["./images/" + imagesNumber + ".png"]})
@@ -31,7 +32,7 @@ client.on("message", async message =>{
         
     }
     if(comando == "ajuda" || comando == "help"){
-        message.channel.send(`(Aqui comandos que do bot)`)
+        message.channel.send(`(Aqui comandos que o bot eira fazer)`)
 
     }
 
