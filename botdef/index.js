@@ -48,7 +48,7 @@ client.on("message", async message =>{
       
     }
 
-    // Manda uma mensagem aletaoria, com base no vetor respostas
+    // Manda uma mensagem aletaoria, com base no array respostas
     if(comando == "Mensagem Aleatoria"){
         number = 9;
         resultado = Math.floor(Math.random() * respostas.length) 
